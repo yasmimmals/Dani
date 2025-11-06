@@ -15,3 +15,4 @@ const nomes = ["Ana", "Bruno", "Carlos", "Daniela"];
 nomes.forEach(function(nome) {
     console.log(`Olá, ${nome}!`);
 });
+// usamos o forEach percorremos o vetor e esse é o seu objetivo, então não tenho um novo vetor criado. Por isso nunca tenho a palavra return dentro
